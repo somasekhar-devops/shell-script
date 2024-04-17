@@ -32,8 +32,9 @@ git push -u origin main
 **Naming convention for file names: Use small case with hyphan(-), No SPaces**
 
 **Run all git add, commit, and push commands at a time**
+```
 git add . ; git commit -m "you message" ; git push -u origin main
-
+```
 * here . means all files in the repo
 
 
