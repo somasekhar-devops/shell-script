@@ -1,3 +1,6 @@
-# Variables
+#!/bin/bash
 
-* Variables sample file
+echo "Ramesh :: Hi Suresh, How are you"
+echo "Suresh :: I am fine How are you"
+echo "Ramesh :: I am fine too"
+echo "Suresh :: How is your Job"
