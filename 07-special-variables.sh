@@ -28,8 +28,9 @@ echo "Hostname : $HOSTNAME"
 echo "Process ID of the current running script : $$"
 # $$ will gives the process ID of the currently running script
 
-sleep 10
+sleep 60 &
 # sleep 60 will sleep the script after this line for 60 sec 
+# sleep 60 & will sleep in the background 
 
 echo "Process ID of the last background command : $!"
 # $! will gives the process id of the lats backround command
