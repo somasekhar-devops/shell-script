@@ -1,4 +1,4 @@
-#!/biin/bash
+!/biin/bash
 
 #installtion of my sql and git
 
@@ -21,7 +21,7 @@ dnf install mysql -y
 
 # $? is used to get the last commeand success or not. O is for Success
 
-if  [ $? -ne 0]
+if  [ $? -ne 0 ]
 then
     echo "Installation of mysql is Failure"
 else
