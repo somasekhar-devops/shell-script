@@ -19,4 +19,12 @@ fi
 
 dnf install mysql -y
 
+# $? is used to get the last commeand success or not. O is for Success
+
+if  [ $? -ne 0]
+then
+    echo "Installation of mysql is Failure"
+else
+    echo "Istallation of mysql is Success"
+fi
 
