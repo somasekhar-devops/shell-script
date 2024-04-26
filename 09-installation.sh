@@ -24,7 +24,22 @@ dnf install mysql -y
 if  [ $? -ne 0 ]
 then
     echo "Installation of mysql is Failure"
+    exit 1
 else
-    echo "Istallation of mysql is Success"
+    echo "Intallation of mysql is Success"
 fi
+
+# istalling git
+
+dnf install git -y
+
+if [ $? -ne 0 ]
+then
+    echo "Installation of git is Failure"
+    exit 1
+else
+    echo "Installation of git is Success"
+fi
+
+
 
