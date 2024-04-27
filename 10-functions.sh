@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERROLE=$ (id -u)
+USERROLE=$(id -u)
 
 if [ $USERROLE -ne 0]
 then
