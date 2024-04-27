@@ -2,7 +2,7 @@
 
 USERROLE=$(id -u)
 
-if [ $USERROLE -ne 0]
+if [ $USERROLE -ne 0 ]
 then
     echo "You are not a Super User. Get the Super access from admin."
     exit 1
