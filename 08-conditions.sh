@@ -13,3 +13,4 @@ fi
 # -lt (less than)
 # -ge (greater than or equal to)
 # -le (less than or equal to)
+# -ne (not equal to)
