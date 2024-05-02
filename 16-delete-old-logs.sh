@@ -3,9 +3,9 @@
 R="\e[31m"
 G="\e[32m"
 Y="\e[33m"
-N="\e[om"
+N="\e[0m"
 
-Source_Directory=/tmp/app-logs
+Source_Directory=/tmp/app-logs1
 
 if [ -d $Source_Directory ]
 then
