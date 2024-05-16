@@ -24,4 +24,4 @@ do
 echo "Deleting file : $line"
 rm -rf $line
 
-done <<<$Files
+done <<< $Files
