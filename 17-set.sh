@@ -1,5 +1,6 @@
-!/biin/bash
+#!/bin/bash
 
+set -e
 
 USERID=$(id -u)
 
@@ -12,7 +13,7 @@ else
 fi
 
 
-dnf install mysql -y
+dnf install mysddadql -y
 dnf install git -y
 
 echo "Is script running ? "

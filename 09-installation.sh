@@ -1,4 +1,4 @@
-!/biin/bash
+#!/bin/bash
 
 #installtion of my sql and git
 
