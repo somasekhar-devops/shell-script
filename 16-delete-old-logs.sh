@@ -16,4 +16,11 @@ fi
 
 Files=$(find $Source_Directory -name "*.log" -mtime +14)
 
-echo "Files to delete old logs : $Files"
+## echo "Files to delete old logs : $Files"  ## To display the old 14 days log files details
+
+while IFS= read -r line
+do
+
+echo "Deleting files : $line"
+
+done <<<$Files
