@@ -5,7 +5,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-Source_Directory=/tmp/aapp-logs
+Source_Directory=/tmp/app-logs
 
 if [ -d $Source_Directory ]
 then
@@ -13,3 +13,7 @@ then
 else
     echo -e "$R Given Source Directory $Source_Directory not exists... Pls check $N"
 fi
+
+Files=$(find $Source_Directory -name "*.log" -mtime +14)
+
+echo "Files to delete old logs : $Files"
