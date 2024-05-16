@@ -11,5 +11,5 @@ if [ -d $Source_Directory ]
 then
     echo -e "$G Source Directory exists $N"
 else
-    echo -e "$R Given Source Directory not exists... Pls check $N"
+    echo -e "$R Given Source Directory $Source_Directory not exists... Pls check $N"
 fi
