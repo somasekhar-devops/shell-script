@@ -2,10 +2,11 @@
 
 Disk_Usage=$(df -hT | grep xfs)
 Disk_Treshold=6
+Message=""
 
 while IFS= read -r line
 do
-    Usage=$(echo $line | awk -F " " '{print $6F}') | cut -d "%" -f1 )
+    Usage=$(echo $line | awk -F " " '{print $6F}' | cut -d "%" -f1 )
     Folder=$(echo $line | awk -F " " '{print $NF}' )
 
     if [ $Usage -ge $Disk_Treshold ]
